@@ -1,14 +1,16 @@
 # MMT Digital Front-end Test
 
-Welcome to the MMT Digital Front-end test. This test will hopefully give you a chance to showcase your skills as a developer. You have **24 hours** to complete the test. After the test, we will ask you to talk through your code and decisions. Alright, let's do this!
+Welcome to the MMT Digital Front-end test. This test will give you a chance to showcase your skills as an engineer. You have **24 hours** to complete the test. Once complete, we'll review your implementation, and if successful, you'll be invited to an interview where we'll talk through the implementation and the decisions you made along the way.
+
+Please read the entire document before you get started, to be sure of the requirements of the test:
 
 ## The challenge
 
-We would like you to re-create the following basket:
+We would like you to create the following basket:
 
 ![The basket](https://slack-imgs.com/?c=1&url=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F42384%2Fscreenshots%2F668649%2Fattachments%2F59014%2Fcart_update_large.png)
 
-Here are some rough user stories for you to work to:
+Here are some user stories for you to work to:
 
 *Basket-001*  
 **As a** user  
@@ -57,17 +59,16 @@ Here are some rough user stories for you to work to:
 ## Things we love
 
 * Use of modern JS frameworks (e.g. React)
-* Tip-top styling, using modern techniques beyond plain CSS
+* Accurate styling, using modern techniques
 * Well-linted, consistent code
-* A fully working non-perfect solution, over a beautiful broken one
+* Accessibility considerations
 * Frequent Git use with clear commit messages
 
 ## Bonus points
 
-* Accessibility considerations
 * Unit testing
 * Progressive enhancement considerations
-* Next gen JavaScript, ES6+
+* Next gen JavaScript, ES+
 * Use of types
 
 ## Getting started
@@ -90,7 +91,6 @@ If you normally work with feature branches, we would love to see usage of them. 
 
 
 #### I'm finished early, what now?
-
 Firstly, great work. Here are some enhancements:
 
 * Add VAT calculations
