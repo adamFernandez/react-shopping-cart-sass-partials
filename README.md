@@ -58,7 +58,7 @@ Here are some user stories for you to work to:
 
 ## Things we love
 
-* Use of modern JS frameworks (e.g. React)
+* Use of modern JavaScript
 * Accurate styling, using modern techniques
 * Well-linted, consistent code
 * Accessibility considerations
@@ -69,16 +69,13 @@ Here are some user stories for you to work to:
 * Unit testing
 * Progressive enhancement considerations
 * Next gen JavaScript, ES+
-* Use of types
+* Use of types where appropriate
 
 ## Getting started
 
-You can use any boilerplate you're used to for getting started. A simple and recommended way is to use [Create React App (CRA)](https://github.com/facebook/create-react-app).
+You can use any boilerplate you'd like to for getting started, whether that's one of your own creation or something that already exists.
 
-To use this:
-- `npx create-react-app app`
-- `cd app`
-- `npm start`
+Don't feel that you need to use any specific frameworks, but focus on what you think is appropriate for the task we've given to you, and the job you're applying for.
 
 ## FAQs
 
@@ -101,4 +98,3 @@ Firstly, great work. Here are some enhancements:
 * Find a live API and pull the item's content and title from that
 * Incorporate markdown to enable easier content editing
 * Optimise for ultimate performance
-* Incorporate PWA techniques
