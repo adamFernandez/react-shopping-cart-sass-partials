@@ -1,100 +1,70 @@
-# MMT Digital Front-end Test
+# Getting Started with Create React App
 
-Welcome to the MMT Digital Front-end test. This test will give you a chance to showcase your skills as an engineer. You have **24 hours** to complete the test. Once complete, we'll review your implementation, and if successful, you'll be invited to an interview where we'll talk through the implementation and the decisions you made along the way.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Please read the entire document before you get started, to be sure of the requirements of the test:
+## Available Scripts
 
-## The challenge
+In the project directory, you can run:
 
-We would like you to create the following basket:
+### `npm start`
 
-![The basket](https://slack-imgs.com/?c=1&url=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F42384%2Fscreenshots%2F668649%2Fattachments%2F59014%2Fcart_update_large.png)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Here are some user stories for you to work to:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-*Basket-001*  
-**As a** user  
-**I want** to view my current basket  
-**So that** I can see what I've added  
+### `npm test`
 
-**Given** I am on the basket page  
-**When** I view the page  
-**Then** I can see all added items and their cost  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-*Basket-002*  
-**As a** user  
-**I want** to change the quantity of a basket item  
-**So that** I can decide item totals before purchasing  
+### `npm run build`
 
-**Given** I am on the basket page  
-**When** I view the page  
-**Then** I can see an item quantity next to each item  
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Given** I am on the basket page  
-**When** I view the page  
-**Then** I can see each item's total cost (adjusted for quantity)  
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**Given** I am on the basket page  
-**When** I change an item quantity  
-**Then** the item's total cost is adjusted, in real-time  
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-*Basket-003*  
-**As a** user  
-**I want** to view my current basket total  
-**So that** I can see what I'm going to have to pay  
+### `npm run eject`
 
-**Given** I am on the basket page  
-**When** I view the page  
-**Then** I can see a total cost, accounting for all items and quantities  
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-*Basket-004*  
-**As a** user  
-**I want** to remove all items from my basket  
-**So that** I can start over  
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**Given** I am on the basket page  
-**When** I click the "clear" button  
-**Then** all items are reset to zero (but remain in the basket)  
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Things we love
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-* Use of modern JavaScript
-* Accurate styling, using modern techniques
-* Well-linted, consistent code
-* Accessibility considerations
-* Frequent Git use with clear commit messages
+## Learn More
 
-## Bonus points
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-* Unit testing
-* Progressive enhancement considerations
-* Next gen JavaScript, ES+
-* Use of types where appropriate
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Getting started
+### Code Splitting
 
-You can use any boilerplate you'd like to for getting started, whether that's one of your own creation or something that already exists.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Don't feel that you need to use any specific frameworks, but focus on what you think is appropriate for the task we've given to you, and the job you're applying for.
+### Analyzing the Bundle Size
 
-## FAQs
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-#### Am I allowed to Google stuff
-It goes without saying. Please work as you normally would during the day.
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-#### Shall I create branches?
-If you normally work with feature branches, we would love to see usage of them. No worries if not.
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-#### I'm finished early, what now?
-Firstly, great work. Here are some enhancements:
+### Deployment
 
-* Add VAT calculations
-* Add currency choice and conversion rates
-* Add a payment step
-* Add another theme
-* Add a product detail modal for each item
-* Find a live API and pull the item's content and title from that
-* Incorporate markdown to enable easier content editing
-* Optimise for ultimate performance
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
