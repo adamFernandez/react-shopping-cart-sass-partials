@@ -1,4 +1,5 @@
 import Items from './components/Items/Items';
+import './components/FontAwesomeIcons';
 
 import { useState } from 'react';
 
@@ -25,8 +26,19 @@ function App() {
     }
   ]);
   
-  const handleChange = () => {
+  const handleQuantity = (item, e) => {
+    const currentItem = data.find(i => i.id === item.id);
+    setData(
+      data.map(i => i.id === item.id  
+        ? {...currentItem, quantity: e.target.value}
+        : i
+      )
+    )
+  }
 
+  const removeItem = (id) => {
+    const newData = data.filter(item => item.id !== id);
+    setData(newData);
   }
 
   const reset = (e) => {
@@ -35,7 +47,7 @@ function App() {
 
   return (
     <form className="form">
-      <Items data={data} handleChange={handleChange} />
+      <Items data={data} handleQuantity={handleQuantity} removeItem={removeItem} />
       
       <div className="total-container">
         <span className="total">$ total</span>
