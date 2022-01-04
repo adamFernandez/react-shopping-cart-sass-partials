@@ -1,5 +1,30 @@
+import Items from './components/Items/Items';
+
+import { useState } from 'react';
 
 function App() {
+  
+  const [data , setData] = useState([
+    {
+      id: "1",
+      name: "Mountain Dew",
+      price: 1.80,
+      quantity: 0,
+    },
+    {
+      id: "2",
+      name: "Desperados",
+      price: 2.583,      
+      quantity: 0,
+    },
+    {
+      id: "3",
+      name: "Jack Daniels",
+      price: 3.35,
+      quantity: 0,
+    }
+  ]);
+  
   const handleChange = () => {
 
   }
@@ -10,15 +35,8 @@ function App() {
 
   return (
     <form className="form">
-      <label className="item">
-        Item 1
-        <input className="number-box"
-          type="text"
-          value="0"
-          onChange={handleChange} />
-          <span className="total-price"> $ 0.00</span>      
-          X
-      </label>
+      <Items data={data} handleChange={handleChange} />
+      
       <div className="total-container">
         <span className="total">$ total</span>
         <button className="clear" type="button" onClick={reset}>Clear</button>
