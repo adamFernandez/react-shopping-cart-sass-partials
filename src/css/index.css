@@ -15,6 +15,7 @@ body {
   margin: auto;
   border: 1px solid #c9c9c9;
   border-radius: 4px;
+  overflow: hidden;
 }
 
 .form .items {
@@ -43,6 +44,10 @@ body {
   border-radius: 3px;
 }
 
+.form .items .item .number-box::-webkit-outer-spin-button, .form .items .item .number-box::-webkit-inner-spin-button {
+  display: none;
+}
+
 .form .items .item .number-box:hover {
   box-shadow: 0px 0px 3px #cecece;
   border-color: #5cb2e1;
@@ -58,4 +63,45 @@ body {
 .form .items .item .delete-item {
   justify-self: center;
   color: #bfbfbf;
+}
+
+.total-container {
+  color: #7c7c7c;
+  display: grid;
+  grid-template-columns: 1fr .5fr .9fr;
+  background-color: whitesmoke;
+  border-top: 1px solid #e2e2e2;
+  padding: 1.4rem 1.4rem;
+}
+
+.total-container .total {
+  font-size: 1.4rem;
+  align-self: center;
+}
+
+.total-container button {
+  font-family: gothamBold, Arial, sans-serif;
+  font-size: .9rem;
+  border: none;
+  padding: .6rem 0;
+}
+
+.total-container .check-out {
+  background-color: #5cb2e1;
+  color: white;
+  border-radius: 2px;
+}
+
+.total-container .clear {
+  background-color: whitesmoke;
+  color: #777777;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 554px) {
+  .form {
+    width: 90%;
+    margin: auto;
+    min-width: 352px;
+  }
 }

@@ -1,4 +1,5 @@
 import Items from './components/Items/Items';
+import Totals from './components/Totals/Totals';
 import './components/FontAwesomeIcons';
 
 import { useState } from 'react';
@@ -27,6 +28,7 @@ function App() {
   ]);
   
   const handleQuantity = (item, e) => {
+    
     const currentItem = data.find(i => i.id === item.id);
     setData(
       data.map(i => i.id === item.id  
@@ -41,19 +43,21 @@ function App() {
     setData(newData);
   }
 
-  const reset = (e) => {
+  const resetQuantities = (e) => {
     e.preventDefault();
+    const newData = [...data];
+    newData.forEach(i => i.quantity = 0);
+
+    setData(newData);
   }
+
+  const total = data.reduce((a, i) => a + i.price * i.quantity, 0);
 
   return (
     <form className="form">
       <Items data={data} handleQuantity={handleQuantity} removeItem={removeItem} />
       
-      <div className="total-container">
-        <span className="total">$ total</span>
-        <button className="clear" type="button" onClick={reset}>Clear</button>
-        <button className="check-out" type="submit">Check Out &gt;</button>
-      </div>
+      <Totals total={total} resetQuantities={resetQuantities}/>
     </form>
   );
 }
