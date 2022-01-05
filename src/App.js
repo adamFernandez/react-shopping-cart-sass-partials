@@ -1,7 +1,7 @@
-import Products from './components/Products/Products';
-import Basket from './components/Basket/Basket';
-import MenuBar from './components/MenuBar/MenuBar';
-import './components/FontAwesomeIcons';
+import Products from './Components/Products/Products';
+import Basket from './Components/Basket/Basket';
+import MenuBar from './Components/MenuBar/MenuBar';
+import './Components/FontAwesomeIcons';
 
 import { useState } from 'react';
 
@@ -67,8 +67,7 @@ function App() {
     <>
       <MenuBar basketData={basketData} toBasket={toBasket} toProducts={toProducts} onProducts={onProducts} />
       {onBasket && <Basket basketData={basketData} handleQuantity={handleQuantity} resetQuantities={resetQuantities} removeItem={removeItem} totals={totals}/>}
-      {onProducts && <Products addToBasket={addToBasket} toBasket={toBasket}/>}
-      
+      {onProducts && <Products addToBasket={addToBasket} toBasket={toBasket}/>}      
     </>    
   );
 }

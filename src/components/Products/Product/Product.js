@@ -14,8 +14,7 @@ const Product = ({ product, addToBasket, toBasket }) => {
 							<button className="productButton" type="button" onClick={() => addToBasket(product)}>Add to Basket</button>
 							<button className="productButton" type="button" onClick={toBasket}>View Basket</button>
 						</div>
-					</div>
-					
+					</div>					
 				</div>    
 			</div>
     )

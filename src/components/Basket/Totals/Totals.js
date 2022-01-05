@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Totals = ({ total, resetQuantities}) => {
+const Totals = ({ total, resetQuantities }) => {
     return (
         <div className="total-container">
             <span className="total">${total.toFixed(2)}</span>
