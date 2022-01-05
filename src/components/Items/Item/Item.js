@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Item = ({ item, handleQuantity, removeItem }) => {
     return (
         <label className="item">
-            {item.name}
+            {item.title}
             <input className="number-box"
             type="number"
             value={item.quantity}

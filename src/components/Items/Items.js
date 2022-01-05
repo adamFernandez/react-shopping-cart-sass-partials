@@ -1,9 +1,10 @@
 import Item from './Item/Item'
 
-const Items = ({ data, handleQuantity, removeItem }) => {
+const Items = ({ basketData, handleQuantity, removeItem }) => {
     return (
         <div className="items">
-            {data.map(item => 
+            {basketData.length === 0 && <p>Cart is Empty</p>}
+            {basketData.map(item => 
                 <Item key={item.id} item={item} handleQuantity={handleQuantity} removeItem={removeItem} />
             )}  
         </div>
