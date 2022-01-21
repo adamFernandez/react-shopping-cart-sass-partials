@@ -1,4 +1,4 @@
-import Item from './Item/Item'
+import Item from './Item/Item';
 
 const Items = ({ basketData, handleQuantity, removeItem }) => {
     return (

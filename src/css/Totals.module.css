@@ -1,0 +1,24 @@
+.total-container {
+  display: grid;
+  grid-template-columns: 1fr .5fr .9fr;
+  background-color: whitesmoke;
+  border-top: 1px solid #e2e2e2;
+  padding: 1.4rem 1.4rem;
+}
+
+.total-container .total {
+  font-size: 1.4rem;
+  align-self: center;
+}
+
+.total-container .check-out {
+  background-color: #5cb2e1;
+  color: white;
+  border-radius: 2px;
+}
+
+.total-container .clear {
+  background-color: whitesmoke;
+  color: #777777;
+  cursor: pointer;
+}

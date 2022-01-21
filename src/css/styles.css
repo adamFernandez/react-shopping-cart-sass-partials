@@ -30,7 +30,7 @@ button {
   padding: .6rem 0;
 }
 
-.menu-bar {
+.menu_bar {
   width: 60%;
   margin: auto;
   height: 4em;
@@ -42,20 +42,20 @@ button {
   border-radius: 4px;
 }
 
-.menu-bar .products {
+.menu_bar .products {
   padding-left: 1.4rem;
   font-size: 1.4em;
   cursor: pointer;
 }
 
-.menu-bar .basket-icon {
+.menu_bar .icon {
   justify-self: center;
   grid-column: 2/3;
   grid-row: 1/1;
   cursor: pointer;
 }
 
-.menu-bar .item-count {
+.menu_bar .counter {
   font-size: 0.9em;
   background-color: #ffffff;
   border: 1px solid #f06868;
@@ -70,7 +70,7 @@ button {
   cursor: pointer;
 }
 
-.sub-menu {
+.sub_menu {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -82,7 +82,7 @@ button {
   border-radius: 4px;
 }
 
-.sub-menu .sub-menu-item {
+.sub_menu .sub_menu_item {
   padding-left: 1.4em;
 }
 
@@ -102,7 +102,7 @@ button {
   border-bottom: 1px dashed #ddd;
 }
 
-.item .item-image {
+.item .item_image {
   justify-self: center;
 }
 
@@ -110,7 +110,7 @@ button {
   padding: .5em;
 }
 
-.item .number-box {
+.item .number_box {
   color: #969696;
   font-family: gothamBold, Arial, sans-serif;
   font-size: 1em;
@@ -120,23 +120,23 @@ button {
   border-radius: 3px;
 }
 
-.item .number-box::-webkit-outer-spin-button, .item .number-box::-webkit-inner-spin-button {
+.item .number_box::-webkit-outer-spin-button, .item .number_box::-webkit-inner-spin-button {
   display: none;
 }
 
-.item .number-box:hover {
+.item .number_box:hover {
   box-shadow: 0px 0px 3px #cecece;
   border-color: #5cb2e1;
   cursor: pointer;
 }
 
-.item .total-price {
+.item .price {
   color: #f06868;
   justify-self: end;
   padding-right: 3%;
 }
 
-.item .delete-item {
+.item .delete {
   justify-self: center;
   color: #bfbfbf;
   cursor: pointer;
@@ -207,17 +207,17 @@ button {
 }
 
 @media screen and (max-width: 554px) {
-  .menu-bar {
-    width: 90%;
-    margin: auto;
-  }
-  .sub-menu {
-    width: 90%;
-    margin: auto;
-  }
   .container {
     width: 90%;
     margin: auto;
     min-width: 352px;
+  }
+  .menu_bar {
+    width: 90%;
+    margin: auto;
+  }
+  .sub_menu {
+    width: 90%;
+    margin: auto;
   }
 }

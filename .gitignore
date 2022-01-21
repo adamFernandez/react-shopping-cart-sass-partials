@@ -58,7 +58,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-styles.scss
+
 styles.min.css
 
-*.scss
+

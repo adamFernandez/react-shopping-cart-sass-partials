@@ -1,0 +1,38 @@
+.product {
+  display: grid;
+  grid-template-columns: .25fr 1fr;
+  padding: 1.4rem 1.4rem;
+  border-bottom: 1px solid #c9c9c9;
+  justify-content: center;
+}
+
+.product .image {
+  justify-self: center;
+  align-self: center;
+}
+
+.product .description {
+  padding-left: 1.2em;
+  display: grid;
+  align-items: center;
+}
+
+.product .description .title {
+  font-size: .8em;
+}
+
+.product .description .buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: space-evently;
+}
+
+.product .description .buttons .productButton {
+  background-color: #5cb2e1;
+  font-size: .7em;
+  color: white;
+  border-radius: 2px;
+  margin-right: .5em;
+  padding: .3em .5em;
+  cursor: pointer;
+}

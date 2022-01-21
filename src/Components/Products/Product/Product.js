@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Product = ({ product, addToBasket, toBasket }) => {
     return (
 			<div className="container">

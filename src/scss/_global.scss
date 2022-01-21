@@ -1,0 +1,30 @@
+body {
+    background-color: $bg-grey;
+    font-family: gothamBold, Arial, sans-serif;
+    color: $items-grey;
+    height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 60%;
+  margin: auto;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  overflow: hidden;
+
+  .centered {
+      text-align: center;
+    }
+}
+  
+  
+
+// BUTTON 
+button {
+  font-family: gothamBold, Arial, sans-serif;
+  font-size: .9rem;
+  border: none;
+  padding: .6rem 0;
+}
+

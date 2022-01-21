@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'gothamBold';
+  src: url("../fonts/GothamBold.otf");
+}
+
+body {
+  background-color: #e2e2e2;
+  font-family: gothamBold, Arial, sans-serif;
+  color: #7c7c7c;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 60%;
+  margin: auto;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.container .centered {
+  text-align: center;
+}
+
+button {
+  font-family: gothamBold, Arial, sans-serif;
+  font-size: .9rem;
+  border: none;
+  padding: .6rem 0;
+}

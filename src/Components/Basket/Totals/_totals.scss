@@ -1,0 +1,25 @@
+.total-container {
+	display: grid;
+	grid-template-columns: 1fr .5fr .9fr;
+	background-color: rgb(245, 245, 245);
+	border-top: 1px solid lighten($border-grey, 10%);
+	padding: 1.4rem 1.4rem;
+	
+	.total {
+		font-size: 1.4rem;
+		align-self: center;
+	}
+
+	.check-out {      
+		background-color: $light-blue;
+		color: white;
+		border-radius: 2px;
+	}
+
+	.clear {
+		background-color: rgb(245, 245, 245);
+		color:rgb(119, 119, 119);
+		cursor: pointer;
+	}
+}
+  
